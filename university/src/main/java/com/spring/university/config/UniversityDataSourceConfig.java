@@ -26,7 +26,7 @@ public class UniversityDataSourceConfig {
 			dataSource.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/web_customer_tracker?useSSL=FALSE");
 			dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
 			dataSource.setUser("root");
-			dataSource.setPassword("Divyadb9");
+			dataSource.setPassword("****");
 			dataSource.setMinPoolSize(5);
 			dataSource.setMaxPoolSize(10);
 		} catch (Exception ex) {
